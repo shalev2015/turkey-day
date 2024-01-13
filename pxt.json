@@ -1,0 +1,32 @@
+{
+    "name": "turkey day",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "carnival": "github:microsoft/arcade-carnival#v0.0.7",
+        "turkey_imgs": "github:kiki-lee/turkey_imgs"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts",
+        "pxt.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.46",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
